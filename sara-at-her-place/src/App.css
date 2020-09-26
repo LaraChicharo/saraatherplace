@@ -2,7 +2,7 @@
   text-align: center;
 }
 
-h2, p{
+h3, h2, p {
   color: black;
   background-color: white;
 }
@@ -20,13 +20,24 @@ h2, p{
 
 .App-header {
   background-color: #C1F9D3;
-  min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+}
+
+.App-body {
+  background-color: #C1F9D3;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(7px + 2vmin);
+}
+
+.Item {
+    margin-top: 0;
 }
 
 @keyframes Sara-pic-spin {
