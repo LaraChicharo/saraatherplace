@@ -23,7 +23,7 @@ function App() {
         <h3 className="Item">{Math.floor(hours)} hours</h3>
         <h3 className="Item">{Math.floor(minutes)} minutes</h3>
         <h3 className="Item">{Math.floor(seconds)} seconds</h3>
-        <h3 className="Item">{Math.floor(seconds)} seconds</h3>
+        <h3 className="Item">{years} years</h3>
         <h2>(Don't) Be like Sara</h2>
       </div>
     </div>
